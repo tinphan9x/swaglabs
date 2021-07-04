@@ -1,0 +1,5 @@
+User must install allure before using the test, can read via this link:
+https://docs.qameta.io/allure/#_installing_a_commandline
+
+install allure-pytest 
+pip install allure-pytest
