@@ -6,9 +6,9 @@ import os
 #Uncomment if the above example gives you a relative path error
 sys.path.append(os.getcwd())
 
-from Resources.TestData import TestData
-from Resources.PO.Pages import LoginPage
-from Resources.WebDriverSetup import WebDriverSetup
+from TestData.TestData import TestData
+from Pages.Pages import LoginPage
+from Utils.WebDriverSetup import WebDriverSetup
 
 import unittest
 

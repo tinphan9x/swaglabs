@@ -8,8 +8,8 @@ import os
 #Uncomment if the above example gives you a relative path error
 sys.path.append(os.getcwd())
 
-from Resources.TestData import TestData
-from Resources.Object import HomeObject
+from TestData.TestData import TestData
+from Objects.Object import HomeObject
 
 class LoginPage(HomeObject):
     def __init__(self, driver):

@@ -5,9 +5,9 @@ import os
 #Uncomment if the above example gives you a relative path error
 sys.path.append(os.getcwd())
 
-from Resources.Locators import Locators
-from Resources.TestData import TestData
-from Resources.PO.Pages import LoginPage
+from Locators.Locators import Locators
+from TestData.TestData import TestData
+from Pages.Pages import LoginPage
 
 import warnings
 import urllib3

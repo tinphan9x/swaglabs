@@ -13,8 +13,8 @@ import os
 #Uncomment if the above example gives you a relative path error
 sys.path.append(os.getcwd())
 
-from Resources.Locators import Locators
-from Resources.TestData import TestData
+from Locators.Locators import Locators
+from TestData.TestData import TestData
 
 class HomeObject():
     """This class is the parent class for all the pages in our application."""
